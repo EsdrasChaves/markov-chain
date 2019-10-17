@@ -1,11 +1,16 @@
-# markov_chain
-Exercício simples da disciplina Estatística Computacional, referente a Cadeia de Markov
+# Markov Chain
+A simple exercise for the Computational Statistics course.
 
-Descrição:
+Description:
 
-"Suponha que um cidadão realize um "passeio" pelos pontos 1, 2 e 3 da seguinte maneira:
-(i) O ponto inicial do passeio é sorteado com igual probabilidade , ou seja: P(começar em 1) = P(começar em 2) = P(começar em 3).
-(ii) Daí pra frente, ele segue a regra da matriz de transição:
-      M = {{0, 2/3, 1/3}, 
-           {1/4, 1/2, 1/4},
-           {1/3, 1/3, 1/3}}
+Suppose a person walks through points 1, 2 and 3 as follows:
+
+(i) The starting point of the tour is drawn with equal probability, ie: P (start at 1) = P (start at 2) = P (start at 3).
+
+(ii) From then on, he follows the transition matrix rule:
+
+M = {{0,   2/3, 1/3},
+  
+     {1/4, 1/2, 1/4},
+    
+     {1/3, 1/3, 1/3}}
